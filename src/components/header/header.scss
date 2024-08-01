@@ -1,12 +1,15 @@
 nav {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 nav a {
     background: #000;
     color: #fff;
-    padding: 10px;
+    padding: 7px 10px;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    display: block;
 }
 
 .menu ul {
@@ -16,9 +19,21 @@ nav a {
 
 .menu ul li {
     display: flex;
+    padding: 7px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+// .menu ul li:hover {
+//     background-image: linear-gradient(to right, #000 30px, transparent 30px), linear-gradient(to right, #000 30px, transparent 30px), linear-gradient(to bottom, #000 30px, transparent 30px), linear-gradient(to bottom, #000 30px, transparent 30px);
+//     background-size: 100% 2px, 100% 2px, 2px 100%, 2px 100%;
+//     background-position: -15px 0%, -15px 100%, 0% -15px, 100% -15px;
+//     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+// }

@@ -2,8 +2,19 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "opensans";
+}
+
+@font-face {
+  font-family: "opensans";
+  src: url(../opensans.ttf);
+
 }
 
 ul {
   list-style: none;
+}
+
+.container {
+  padding: 0 30px;
 }
